@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000010377046070}
+  - component: {fileID: -2590217112418982692}
   m_Layer: 0
   m_Name: RHEF_SpruceA
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &-2590217112418982692
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010816656516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.3136878
+  m_Height: 49.697857
+  m_Direction: 1
+  m_Center: {x: 0.18966389, y: 19.874063, z: -0.098201275}
 --- !u!1 &1000011155360908
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +58,6 @@ GameObject:
   - component: {fileID: 4000014249316440}
   - component: {fileID: 33000013918717924}
   - component: {fileID: 23000013462697434}
-  - component: {fileID: 64000013123528018}
   m_Layer: 0
   m_Name: RHE_SpruceA_Trunk
   m_TagString: Untagged
@@ -114,20 +128,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64000013123528018
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011155360908}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: b6e127cb00c9dda40b7cac23fea4d82d, type: 3}
 --- !u!1 &1000013313497444
 GameObject:
   m_ObjectHideFlags: 0
