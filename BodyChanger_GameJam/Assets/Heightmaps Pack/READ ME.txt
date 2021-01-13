@@ -1,0 +1,6 @@
+This package includes 5 Heightmaps in three different formats:
+-PNG (Source)
+-8 bit Windows byte order
+-16 bit Mac byte order
+
+The 8 bit version is the direct port of the source to RAW, while the 16 bit version was smoothed with TerrainToolkit, by Sndor Moldn.
