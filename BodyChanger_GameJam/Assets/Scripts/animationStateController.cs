@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class animationStateController : MonoBehaviour
 {
+    // PLAYER SCRIPT
 
     //private Rigidbody _rigidbody;
     public float moveSpeed;
@@ -25,6 +26,8 @@ public class animationStateController : MonoBehaviour
     public Transform groundCheckPoint;
     private bool canJump;
     public LayerMask whatIsGround;
+
+    public HUD hud;
 
     void Start()
     {
@@ -226,6 +229,26 @@ public class animationStateController : MonoBehaviour
             }
         }
         return closest;
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+        
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Mektup")
+        {
+            hud.OpenMessagePanel("");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        hud.CloseMessagePanel();
     }
 
 
