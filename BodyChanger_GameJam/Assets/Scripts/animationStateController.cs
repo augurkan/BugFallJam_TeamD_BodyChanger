@@ -29,6 +29,9 @@ public class animationStateController : MonoBehaviour
 
     public HUD hud;
 
+    bool MessagePanelOpen=false;
+
+
     void Start()
     {
  
@@ -232,23 +235,44 @@ public class animationStateController : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-        
-    }
+
 
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Mektup")
         {
             hud.OpenMessagePanel("");
+            MessagePanelOpen = true;
         }
+
+        if (Input.GetKey("f") && MessagePanelOpen==true)
+        {
+            hud.OpenLetter("");
+            hud.MessagePanelTextChanger("Mektubu kapatmak için G'ye basınız");
+
+            if (other.gameObject.name=="default1")
+            {
+                hud.LetterTextChanger("Ahmet Uğurkan YILDIZ\nElif Ayhan\nMehmet Ali Aytekin\nOrçun Şahin\nZüleyha İşidir");
+            }
+            if (other.gameObject.name=="default2")
+            {
+                hud.LetterTextChanger("MEKTUPİKİİİ");
+            }
+
+        }
+
+        if (Input.GetKey("g"))
+        {
+            hud.CloseLetter();
+            hud.MessagePanelTextChanger("Mektubu açmak için F'e basınız");
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
     {
         hud.CloseMessagePanel();
+        MessagePanelOpen = false;
     }
 
 
