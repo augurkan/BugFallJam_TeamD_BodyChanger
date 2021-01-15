@@ -3247,7 +3247,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0
+  m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.03, z: 0}
@@ -3730,17 +3730,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 889bcfcf6080fb24c8b82684982453ad,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 889bcfcf6080fb24c8b82684982453ad,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 889bcfcf6080fb24c8b82684982453ad,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 889bcfcf6080fb24c8b82684982453ad,
         type: 3}
@@ -12395,7 +12395,7 @@ Transform:
   m_Children:
   - {fileID: 2063093878}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920186321
 GameObject:
@@ -13594,12 +13594,12 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
-  m_Radius: 0.9594064
+  m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1.03, z: 0}
 --- !u!136 &1036427853
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21455,7 +21455,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22a1443b2d947ae409363c82e0b40168,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 22a1443b2d947ae409363c82e0b40168,
         type: 3}
