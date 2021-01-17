@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: be8c4b6a10407fe40872c2df374aaf88
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 696043191036554673
+    second: EyeL|Shader NodetreeAction.000
+  - first:
+      74: 3813248262600968827
+    second: EyeL|Shader NodetreeAction.001
+  - first:
+      74: 2474066422929764189
+    second: EyeL|Shader NodetreeAction.002
+  - first:
+      74: -2137114661786897859
+    second: EyeL|Shader NodetreeAction.003
+  - first:
+      74: -6346547752845298708
+    second: EyeL|Shader NodetreeAction.004
+  - first:
+      74: 3965831642483064940
+    second: EyeL|Shader NodetreeAction.005
+  - first:
+      74: 3958168506012138507
+    second: EyeL|Shader NodetreeAction.006
+  - first:
+      74: 5834251814863094223
+    second: EyeL|Shader NodetreeAction.007
+  - first:
+      74: -6299421094531330031
+    second: EyeL|Shader NodetreeAction.008
+  - first:
+      74: 2553049661967331103
+    second: EyeL|Shader NodetreeAction.009
+  - first:
+      74: 2624204912494408681
+    second: EyeL|Shader NodetreeAction.010
+  - first:
+      74: 9141559695644724318
+    second: EyeL|Shader NodetreeAction.011
+  - first:
+      74: 2300211900726429870
+    second: EyeL|Shader NodetreeAction.012
+  - first:
+      74: 4107865581675030402
+    second: EyeL|Shader NodetreeAction.013
+  - first:
+      74: 5755655403383227009
+    second: EyeL|Shader NodetreeAction.014
+  - first:
+      74: -7105912286886854603
+    second: EyeL|Shader NodetreeAction.015
+  - first:
+      74: -2132687589116428148
+    second: EyeL|Shader NodetreeAction.016
+  - first:
+      74: -2412125394145775827
+    second: EyeL|Shader NodetreeAction.017
+  - first:
+      74: -5902545098316729607
+    second: EyeL|Shader NodetreeAction.018
+  - first:
+      74: -1314842657159766229
+    second: EyeL|Shader NodetreeAction.019
+  - first:
+      74: 8895035416011079592
+    second: EyeL|Shader NodetreeAction.020
+  - first:
+      74: -5343043108415133538
+    second: EyeL|Shader NodetreeAction.021
+  - first:
+      74: -4244031685789927117
+    second: EyeL|Shader NodetreeAction.022
+  - first:
+      74: -1536964836344095764
+    second: EyeL|Shader NodetreeAction.023
+  - first:
+      74: 7645939738106627038
+    second: EyeL|Shader NodetreeAction.024
+  - first:
+      74: 2795241307837783433
+    second: EyeL|Shader NodetreeAction.025
+  - first:
+      74: 5686455642874231796
+    second: EyeL|Shader NodetreeAction.026
+  - first:
+      74: -5615489763045341170
+    second: EyeL|Shader NodetreeAction.027
+  - first:
+      74: -4450292457447303174
+    second: EyeL|Shader NodetreeAction.028
+  - first:
+      74: 7961009339249090544
+    second: EyeL|Shader NodetreeAction.029
+  - first:
+      74: 2341494754303965794
+    second: EyeL|Shader NodetreeAction.030
+  - first:
+      74: -1269225026042343002
+    second: EyeL|Shader NodetreeAction.031
+  - first:
+      74: 1799500387652247419
+    second: EyeL|Shader NodetreeAction.032
+  - first:
+      74: -7147256013697953679
+    second: EyeAoL|Shader NodetreeAction.000
+  - first:
+      74: 6386643249070390041
+    second: EyeAoL|Shader NodetreeAction.001
+  - first:
+      74: -628582101977376617
+    second: EyeAoL|Shader NodetreeAction.002
+  - first:
+      74: 7967417527735334289
+    second: EyeAoL|Shader NodetreeAction.003
+  - first:
+      74: -6082882827041046767
+    second: EyeAoL|Shader NodetreeAction.004
+  - first:
+      74: 6514639229690925857
+    second: EyeAoL|Shader NodetreeAction.005
+  - first:
+      74: -8968130620372626811
+    second: EyeAoL|Shader NodetreeAction.006
+  - first:
+      74: -3151234543440889588
+    second: EyeAoL|Shader NodetreeAction.007
+  - first:
+      74: 7030445652050515716
+    second: EyeAoL|Shader NodetreeAction.008
+  - first:
+      74: -832037639695861032
+    second: EyeAoL|Shader NodetreeAction.009
+  - first:
+      74: -1186589681102420532
+    second: EyeAoL|Shader NodetreeAction.010
+  - first:
+      74: -5809316273103394537
+    second: EyeAoL|Shader NodetreeAction.011
+  - first:
+      74: 8470446670082172056
+    second: EyeAoL|Shader NodetreeAction.012
+  - first:
+      74: -7662380493730514045
+    second: EyeAoL|Shader NodetreeAction.013
+  - first:
+      74: 2507342410642033219
+    second: EyeAoL|Shader NodetreeAction.014
+  - first:
+      74: -4457854174997761861
+    second: EyeAoL|Shader NodetreeAction.015
+  - first:
+      74: -5922359904215703260
+    second: EyeAoL|Shader NodetreeAction.016
+  - first:
+      74: -3547194226706491161
+    second: EyeAoL|Shader NodetreeAction.017
+  - first:
+      74: -4340504501841993291
+    second: EyeAoL|Shader NodetreeAction.018
+  - first:
+      74: -3182454122965721173
+    second: EyeAoL|Shader NodetreeAction.019
+  - first:
+      74: -7452242940715796598
+    second: EyeAoL|Shader NodetreeAction.020
+  - first:
+      74: -6137851599720592635
+    second: EyeAoL|Shader NodetreeAction.021
+  - first:
+      74: 7727949745447938310
+    second: EyeAoL|Shader NodetreeAction.022
+  - first:
+      74: 8686890980661323873
+    second: EyeAoL|Shader NodetreeAction.023
+  - first:
+      74: 8201723950496481460
+    second: EyeAoL|Shader NodetreeAction.024
+  - first:
+      74: 983654871270018394
+    second: EyeAoL|Shader NodetreeAction.025
+  - first:
+      74: 940613897470057606
+    second: EyeAoL|Shader NodetreeAction.026
+  - first:
+      74: 4136886462485829107
+    second: EyeAoL|Shader NodetreeAction.027
+  - first:
+      74: 6987513053572348834
+    second: EyeAoL|Shader NodetreeAction.028
+  - first:
+      74: -2611330067787741093
+    second: EyeAoL|Shader NodetreeAction.029
+  - first:
+      74: 3724172814438425048
+    second: EyeAoL|Shader NodetreeAction.030
+  - first:
+      74: -8720064362211912660
+    second: EyeAoL|Shader NodetreeAction.031
+  - first:
+      74: -4189621568352181468
+    second: EyeAoL|Shader NodetreeAction.032
+  - first:
+      74: 2174732981173979427
+    second: EyeR|Shader NodetreeAction.000
+  - first:
+      74: -5201865388147853537
+    second: EyeR|Shader NodetreeAction.001
+  - first:
+      74: 1600142955722452207
+    second: EyeR|Shader NodetreeAction.002
+  - first:
+      74: -6176553832337834511
+    second: EyeR|Shader NodetreeAction.003
+  - first:
+      74: -7389782916755683793
+    second: EyeR|Shader NodetreeAction.004
+  - first:
+      74: -7143862566058756718
+    second: EyeR|Shader NodetreeAction.005
+  - first:
+      74: -1122577539355222659
+    second: EyeR|Shader NodetreeAction.006
+  - first:
+      74: 9119423320053192817
+    second: EyeR|Shader NodetreeAction.007
+  - first:
+      74: -3347203270485389093
+    second: EyeR|Shader NodetreeAction.008
+  - first:
+      74: -5687824919405704694
+    second: EyeR|Shader NodetreeAction.009
+  - first:
+      74: -1151402010170138561
+    second: EyeR|Shader NodetreeAction.010
+  - first:
+      74: 2852216918385012369
+    second: EyeR|Shader NodetreeAction.011
+  - first:
+      74: -9063079891592913938
+    second: EyeR|Shader NodetreeAction.012
+  - first:
+      74: 7834428468359099107
+    second: EyeR|Shader NodetreeAction.013
+  - first:
+      74: -8185882947015690623
+    second: EyeR|Shader NodetreeAction.014
+  - first:
+      74: 3113615339620990333
+    second: EyeR|Shader NodetreeAction.015
+  - first:
+      74: -3306204111512209065
+    second: EyeR|Shader NodetreeAction.016
+  - first:
+      74: -8142952893930335158
+    second: EyeR|Shader NodetreeAction.017
+  - first:
+      74: -3639970044351142993
+    second: EyeR|Shader NodetreeAction.018
+  - first:
+      74: -6779915219540621804
+    second: EyeR|Shader NodetreeAction.019
+  - first:
+      74: -7512794741414332233
+    second: EyeR|Shader NodetreeAction.020
+  - first:
+      74: 4586949476087869789
+    second: EyeR|Shader NodetreeAction.021
+  - first:
+      74: -1195644556754965063
+    second: EyeR|Shader NodetreeAction.022
+  - first:
+      74: -3426247353194376545
+    second: EyeR|Shader NodetreeAction.023
+  - first:
+      74: 538094149012440698
+    second: EyeR|Shader NodetreeAction.024
+  - first:
+      74: -8806422220349226739
+    second: EyeR|Shader NodetreeAction.025
+  - first:
+      74: 1051337422034575795
+    second: EyeR|Shader NodetreeAction.026
+  - first:
+      74: -4034891945620977271
+    second: EyeR|Shader NodetreeAction.027
+  - first:
+      74: 2718528159577840313
+    second: EyeR|Shader NodetreeAction.028
+  - first:
+      74: 4856982431729554196
+    second: EyeR|Shader NodetreeAction.029
+  - first:
+      74: 5621531623571317570
+    second: EyeR|Shader NodetreeAction.030
+  - first:
+      74: -4257668100266448039
+    second: EyeR|Shader NodetreeAction.031
+  - first:
+      74: -6286226659081848336
+    second: EyeR|Shader NodetreeAction.032
+  - first:
+      74: -8385482949136329637
+    second: EyeAoR|Shader NodetreeAction.000
+  - first:
+      74: 7297107857655023303
+    second: EyeAoR|Shader NodetreeAction.001
+  - first:
+      74: -6540250988981630941
+    second: EyeAoR|Shader NodetreeAction.002
+  - first:
+      74: 6655512916551407166
+    second: EyeAoR|Shader NodetreeAction.003
+  - first:
+      74: 3370391196698503022
+    second: EyeAoR|Shader NodetreeAction.004
+  - first:
+      74: -3585204483992975731
+    second: EyeAoR|Shader NodetreeAction.005
+  - first:
+      74: -972901027748503027
+    second: EyeAoR|Shader NodetreeAction.006
+  - first:
+      74: 6575114018364675910
+    second: EyeAoR|Shader NodetreeAction.007
+  - first:
+      74: 2893421527401680383
+    second: EyeAoR|Shader NodetreeAction.008
+  - first:
+      74: 1889291795628477041
+    second: EyeAoR|Shader NodetreeAction.009
+  - first:
+      74: 6004127760505231649
+    second: EyeAoR|Shader NodetreeAction.010
+  - first:
+      74: 5782370691315944715
+    second: EyeAoR|Shader NodetreeAction.011
+  - first:
+      74: 7347166933122129700
+    second: EyeAoR|Shader NodetreeAction.012
+  - first:
+      74: 8166943769077242229
+    second: EyeAoR|Shader NodetreeAction.013
+  - first:
+      74: 6217193124653477218
+    second: EyeAoR|Shader NodetreeAction.014
+  - first:
+      74: 3424128465475952120
+    second: EyeAoR|Shader NodetreeAction.015
+  - first:
+      74: 437009277256766654
+    second: EyeAoR|Shader NodetreeAction.016
+  - first:
+      74: 7121936666893793331
+    second: EyeAoR|Shader NodetreeAction.017
+  - first:
+      74: -7609379423071933955
+    second: EyeAoR|Shader NodetreeAction.018
+  - first:
+      74: -1891167041130105911
+    second: EyeAoR|Shader NodetreeAction.019
+  - first:
+      74: 2262717156164650805
+    second: EyeAoR|Shader NodetreeAction.020
+  - first:
+      74: -1305448832295167597
+    second: EyeAoR|Shader NodetreeAction.021
+  - first:
+      74: 4795477640617258246
+    second: EyeAoR|Shader NodetreeAction.022
+  - first:
+      74: -1194245931716284175
+    second: EyeAoR|Shader NodetreeAction.023
+  - first:
+      74: -40415918460415847
+    second: EyeAoR|Shader NodetreeAction.024
+  - first:
+      74: 504648824063021005
+    second: EyeAoR|Shader NodetreeAction.025
+  - first:
+      74: -7688224589750400991
+    second: EyeAoR|Shader NodetreeAction.026
+  - first:
+      74: 8830940876609915509
+    second: EyeAoR|Shader NodetreeAction.027
+  - first:
+      74: -2390385244657466934
+    second: EyeAoR|Shader NodetreeAction.028
+  - first:
+      74: -987114187651298356
+    second: EyeAoR|Shader NodetreeAction.029
+  - first:
+      74: 770775879379107853
+    second: EyeAoR|Shader NodetreeAction.030
+  - first:
+      74: -4121828076615307437
+    second: EyeAoR|Shader NodetreeAction.031
+  - first:
+      74: -856254390153033272
+    second: EyeAoR|Shader NodetreeAction.032
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 1a777cdd40540da42ba9b04f20c4efb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BroochLD
+    second: {fileID: 2100000, guid: fe15311d3d1220e4e8ebc69660fe9f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DressLD
+    second: {fileID: 2100000, guid: 8c26370b626bca94a9579d2ce61dae14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DressLDAlpha
+    second: {fileID: 2100000, guid: b1da734d4da4cec45a18d9c92f25cce3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyebrow
+    second: {fileID: 2100000, guid: 2f943915bcd52f742a4c95f27536d9d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyelash
+    second: {fileID: 2100000, guid: ed4b57b047c6e1c4aa5955761f1ba359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fabric.000
+    second: {fileID: 2100000, guid: 0934e8c4fc67b564fae3ec416bae0491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FabricWithoutHoles
+    second: {fileID: 2100000, guid: a7adb3d66dacb744ea03379958880980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 3ed9c11c54a37b44a8f967e5b00ad89e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HairPinLD
+    second: {fileID: 2100000, guid: 8b63e8e946968884b84fe68a1db8053a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HandRingLD
+    second: {fileID: 2100000, guid: 4756a62aa48e7294084674c98ed15581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadRingLD
+    second: {fileID: 2100000, guid: 36fed7eaa7322c04997777beb01a6102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighHeelLD
+    second: {fileID: 2100000, guid: c3c016f14a9e86e46b09b30c88de1f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jewelry
+    second: {fileID: 2100000, guid: 3ba0173b5d713e94f988265a03b2e801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JewelryGlass
+    second: {fileID: 2100000, guid: 9247db3785432814c9d5bb16cb6113b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JewelryGlass.001
+    second: {fileID: 2100000, guid: ff83d1efde799084cb226de11bfefa9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProceduralEyeAoL
+    second: {fileID: 2100000, guid: 9bbd98f7920a6cc438dd3a0a2255ec7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProceduralEyeAoR
+    second: {fileID: 2100000, guid: 8c3957ee7d59ddb4ca1f6248999edb31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProceduralIris
+    second: {fileID: 2100000, guid: f27ccaaadd1adea40ad9f27f9c643254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProceduralScleraCornea
+    second: {fileID: 2100000, guid: 224996ad7a6728a429d1e19ef9f98ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoseLDFabric
+    second: {fileID: 2100000, guid: 8012d089c2a4b894e930c1066001d080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sliver
+    second: {fileID: 2100000, guid: 0bc6be4ab64f786458eb0ae4ff7275c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TransGlass
+    second: {fileID: 2100000, guid: 06753957dbedb594ab7806a688568bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UnderwearLP
+    second: {fileID: 2100000, guid: 1c530e8a5a0e3ac44a84eae7ee75dab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WatchLD
+    second: {fileID: 2100000, guid: c4866fa05f68eb4489e65a41d18a2e04, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
