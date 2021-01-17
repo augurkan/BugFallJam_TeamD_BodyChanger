@@ -5,6 +5,10 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
+    Animator anim;
+    int isWalkingHash;
+    int isRunningHash;
+    int isAttackHash;
 
     public NavMeshAgent agent;
 
@@ -29,6 +33,12 @@ public class EnemyAI : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         agent = GetComponent<NavMeshAgent>();
+
+        anim = GetComponent<Animator>();
+
+        isWalkingHash = Animator.StringToHash("isWalking");
+        isRunningHash = Animator.StringToHash("isRunning");
+        isAttackHash = Animator.StringToHash("isAttack");
     }
 
     private void Update()
@@ -50,6 +60,7 @@ public class EnemyAI : MonoBehaviour
         if (walkPointSet)
         {
             agent.SetDestination(walkPoint);
+            anim.SetBool(isWalkingHash, true);
         }
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
