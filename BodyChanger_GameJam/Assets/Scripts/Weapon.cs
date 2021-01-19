@@ -25,7 +25,7 @@ public class Weapon : MonoBehaviour
         if (other.CompareTag("Elif"))
         {
 
-           // other.gameObject.GetComponent<EnemyHealth>().TakeDamage();
+            other.gameObject.GetComponent<EnemyHealth>().TakeDamage();
 
         }
     }

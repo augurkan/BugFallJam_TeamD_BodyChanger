@@ -182,6 +182,7 @@ public class animationStateController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             GameObject nearBody = FindClosestEnemy();
+            GameObject nearBody2 = FindClosestEnemy2();
 
             if (nearBody != null && nearBody.CompareTag("Elif"))
             {
@@ -201,6 +202,27 @@ public class animationStateController : MonoBehaviour
                 this.anim.SetBool(isDeadHash, true);
                 this.GetComponent<CharacterController>().enabled = false;
                 
+
+            }
+
+            if (nearBody2 != null && nearBody2.CompareTag("Ugurkan"))
+            {
+                //Vector3 velocity = Vector3.zero;
+                nearBody2.GetComponent<animationStateController>().enabled = true;
+                nearBody2.GetComponent<ThirdPersonCameraController>().enabled = true;
+                nearBody2.GetComponent<CharacterController>().enabled = true;
+
+                nearBody2.gameObject.tag = "Player";
+
+                nearBody2.transform.Find("Camera").gameObject.SetActive(true);
+                this.transform.Find("Camera").gameObject.SetActive(false);
+
+                this.gameObject.tag = "Dead";
+                this.GetComponent<animationStateController>().enabled = false;
+                this.GetComponent<ThirdPersonCameraController>().enabled = false;
+                this.anim.SetBool(isDeadHash, true);
+                this.GetComponent<CharacterController>().enabled = false;
+
 
             }
         }
@@ -235,7 +257,33 @@ public class animationStateController : MonoBehaviour
     }
 
 
+    public GameObject FindClosestEnemy2()
+    {
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("Ugurkan");
+        GameObject closest = null;
+        float distance = tDist;
+        Vector3 position = transform.position;
 
+        foreach (GameObject go in gos)
+        {
+            if (go == this.gameObject)
+                continue;
+
+            float curDistance = Vector3.Distance(go.transform.position, position);
+            curDistance = Mathf.Abs(curDistance);
+
+            if (curDistance > tDist)
+                continue;
+
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+        }
+        return closest;
+    }
 
     private void OnTriggerStay(Collider other)
     {
@@ -256,9 +304,16 @@ public class animationStateController : MonoBehaviour
             }
             if (other.gameObject.name=="default2")
             {
-                hud.LetterTextChanger("MEKTUPİKİİİ");
+                hud.LetterTextChanger("Mağarada kahin ile konuş!");
             }
-
+            if (other.gameObject.name == "default3")
+            {
+                hud.LetterTextChanger("Hoşgeldin Evlat!\nBende seni bekliyordum");
+            }
+            if (other.gameObject.name == "default4")
+            {
+                hud.LetterTextChanger("Ruhlar alemine hoş geldin");
+            }
         }
 
         if (Input.GetKey("g"))

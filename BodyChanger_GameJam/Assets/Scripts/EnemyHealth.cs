@@ -55,7 +55,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage()
     {
-        health -= 50;
+        health -= 2;
     }
 
 
