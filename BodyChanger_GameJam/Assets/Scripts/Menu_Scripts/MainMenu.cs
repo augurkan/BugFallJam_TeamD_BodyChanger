@@ -74,6 +74,7 @@ public class MainMenu : MonoBehaviour
             storyScreen3.SetActive(true);
         }
         else if (buttonNo == 4)
+        if (buttonNo == 4)
         {
             storyScreen3.SetActive(false);
             canvas_UI.SetActive(true);
@@ -81,7 +82,7 @@ public class MainMenu : MonoBehaviour
             storyRed = true;
             freshStart = false;
 
-            SceneManager.LoadScene(1);   // ilk level'a başlar
+            SceneManager.LoadScene(2);   // ilk level'a başlar
         }
     }
 
@@ -91,9 +92,11 @@ public class MainMenu : MonoBehaviour
     {
         if(freshStart == true && !storyRed)   //henüz oyuna başlamamış ve story'i izlememişsek ilk slayt açılsın. next ile story'de ilerlemek "StorySheetChangeButtons" da yapılacak
         {
-            storyScreenBook.SetActive(true);
+            //storyScreenBook.SetActive(true);
 
-            canvas_UI.SetActive(false);
+            //canvas_UI.SetActive(false);
+
+            SceneManager.LoadScene(1);
         }
         else 
         {
