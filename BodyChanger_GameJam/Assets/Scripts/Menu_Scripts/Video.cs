@@ -17,7 +17,11 @@ public class Video : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Space))
+        {
+            VideoPlayer.Stop();
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 
     void LoadScene(VideoPlayer vp)
